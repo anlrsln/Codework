@@ -1,0 +1,45 @@
+import { StyleSheet,Dimensions } from "react-native";
+
+export default StyleSheet.create({
+    container:{
+        flex:1,
+        margin:10,
+        padding:5,
+        borderWidth:1,
+        borderRadius:8,
+        backgroundColor:"white",
+        borderColor:"grey"
+    },
+    header:{
+        flex:2
+    },
+    body:{
+        flex:1
+    },
+    job_name:{
+        fontSize:20,
+        fontWeight:"bold"
+    },
+    locations_container:{
+        flexDirection:"row",
+        marginTop:10,
+    },
+    locations:{
+        padding:5,
+        paddingHorizontal:10,
+        borderRadius:20,
+        fontSize:18,
+        backgroundColor:"#ef5350",
+        color:"white",
+        fontWeight:"bold"
+    },
+    remove_btn:{
+        marginVertical:10,
+    },
+    level:{
+        textAlign:"right",
+        fontSize:18,
+        fontWeight:"bold",
+        color:"#ef5350"
+    }
+})
